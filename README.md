@@ -83,7 +83,7 @@ Four Rooms Gridworld is a classic RL problem that involves navigating an agent t
 - Recorded the number of steps taken to reach the goal and the frequency of reaching the goal within a set number of steps.
 - Analyzed the data to assess the effectiveness of the policy or learning algorithm.
 
-#### Step 9: Visualization and Reporting
+#### Step 9: Visualization
 - Create visualizations such as state transition diagrams or learning curves to represent the agent's performance.
 - Summarized the findings and report on the agent’s learning progress and challenges encountered.
 
@@ -91,3 +91,7 @@ Four Rooms Gridworld is a classic RL problem that involves navigating an agent t
 - Based on the performance, iterate on the policy or algorithm to improve the agent’s navigation strategy.
 - Experimented with different reward structures, slip probabilities, and action sets to optimize the agent’s learning efficiency.
 
+
+## Result Analysis
+
+Please refer to the ****[outputs](https://github.com/PShru2000/Implementation-of-Reinforcement-Policies-in-Gridworld/tree/main/outputs%20-RL)** for the resuts
