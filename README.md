@@ -45,5 +45,49 @@ This section outlines the setup for the Four Rooms simulation environment used t
 3) Implement a random policy. A random policy outputs one of the four actions, uniformly at random. This is an example of a stochastic policy.
 
 4) Devise and implement at least two more policies, one of which should be generally worse than the random policy, and one better
-  
-6) 
+
+
+## Implementation Process
+
+Four Rooms Gridworld is a classic RL problem that involves navigating an agent through a grid with obstacles to reach a goal. The following steps outline the process for setting up and interacting with the Four Rooms Gridworld environment:
+
+#### Step 1: Initializing the Environment
+- Start by defining the grid space with walls and open spaces, marking the starting state (0, 0) and the goal state (10, 10).
+
+#### Step 2: Defining State Space and Actions
+- The state is represented by (x, y) coordinates within the grid.
+- The agent can perform four actions: LEFT, DOWN, RIGHT, and UP.
+
+#### Step 3: Implementing Transition Dynamics
+- When an action is chosen, there is a 90% chance the agent moves in the intended direction.
+- There is a 5% chance the agent slips and moves perpendicularly to the intended direction.
+- If an action would result in a wall collision or moving out of bounds, the agent stays in the current state.
+
+#### Step 4: Simulating Agent Movement
+- Created a simulate function to handle the logic for state transitions and reward assignments.
+- The function should accept the current state and action, then return the new state and reward.
+
+#### Step 5: Handling Goal State and Rewards
+- Set the reward for reaching the goal state to +1, and 0 for all other transitions.
+- Implemented the teleportation mechanism to reset the agent to the start state upon reaching the goal.
+
+#### Step 6: Agent-Policy Interaction
+- Developed a manual policy or automated algorithm to decide actions based on the current state.
+- Used this policy to test the agent’s ability to navigate through the grid to the goal state.
+
+#### Step 7: Environment Testing
+- Manually tested the environment with predetermined actions to ensure the transition dynamics are as expected.
+- Ran automated tests with your policy or RL algorithm to evaluate performance.
+
+#### Step 8: Analysis
+- Recorded the number of steps taken to reach the goal and the frequency of reaching the goal within a set number of steps.
+- Analyzed the data to assess the effectiveness of the policy or learning algorithm.
+
+#### Step 9: Visualization and Reporting
+- Create visualizations such as state transition diagrams or learning curves to represent the agent's performance.
+- Summarized the findings and report on the agent’s learning progress and challenges encountered.
+
+#### Step 10: Iteration and Optimization
+- Based on the performance, iterate on the policy or algorithm to improve the agent’s navigation strategy.
+- Experimented with different reward structures, slip probabilities, and action sets to optimize the agent’s learning efficiency.
+
