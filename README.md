@@ -34,3 +34,5 @@ This section outlines the setup for the Four Rooms simulation environment used t
 - The agent interacts with the environment by providing actions based on a policy.
 - The policy is a manual state-action mapping π: S → A, which can be user-defined for testing.
 
+## Gridworld Environment
+!Screenshot[https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/blob/main/env.png]
