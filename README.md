@@ -35,3 +35,15 @@ This section outlines the setup for the Four Rooms simulation environment used t
 ## Gridworld Environment
 
 ![Screenshot](https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/blob/main/env.png?raw=true)
+
+## Problem Statement
+
+1) Implement a simulate function that acts as the Four Rooms environment,It should take in the current state s and desired action a, and return the next state s′ as well as the reward r
+
+2) Implement a manual policy, and an agent that interacts with the simulator and the policy
+
+3) Implement a random policy. A random policy outputs one of the four actions, uniformly at random. This is an example of a stochastic policy.
+
+4) Devise and implement at least two more policies, one of which should be generally worse than the random policy, and one better
+  
+6) 
