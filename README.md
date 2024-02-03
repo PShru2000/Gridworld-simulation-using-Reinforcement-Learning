@@ -94,4 +94,28 @@ Four Rooms Gridworld is a classic RL problem that involves navigating an agent t
 
 ## Result Analysis
 
-Please refer to the ****[outputs](https://github.com/PShru2000/Implementation-of-Reinforcement-Policies-in-Gridworld/tree/main/outputs%20-RL)** for the resuts
+Please refer to the **[outputs]([https://github.com/PShru2000/Implementation-of-Reinforcement-Policies-in-Gridworld/tree/main/outputs%20-RL](https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/tree/main/Outputs-RL1)https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/tree/main/Outputs-RL1)** for the resuts
+
+**Better Policy:**
+
+-Demonstrates a strong performance, with a steady increase in the cumulative reward over time
+-The average curve is consistently higher than the other policies, indicating that this policy more frequently makes decisions that lead to rewards
+-The variation between trials is relatively small, suggesting that the Better Policy is robust and reliable
+
+**Random Policy:**
+
+-As expected, the Random Policy shows a gradual and less steep increase in cumulative rewards. This is indicative of the lack of strategy, relying on chance for successful outcomes
+-There is more variability between trials compared to the Better Policy, which is consistent with the stochastic nature of random decisions
+
+**Worse Policy**
+
+-The Worse Policy curve is nearly flat, with very minimal increase in cumulative rewards. This suggests the policy often makes decisions that do not lead to rewards, and may frequently hit penalties or take suboptimal paths
+-There is some variation between trials, but the general trend indicates poor performance
+
+**Overall Observations**
+
+-The Better Policy is evidently the most effective, consistently achieving higher rewards at a quicker rate than the other policies. It is likely making intelligent choices that navigate the agent towards higher-reward states
+
+-The Random Policy reflects the uncertainty and lack of direction in its decision-making process, leading to a much slower accumulation of rewards. However, it still outperforms the Worse Policy due to the random chance of encountering rewards
+
+-The Worse Policy demonstrates what not to do in this environment. Its performance suggests it may be consistently making the worst possible decision at each step, or it could be stuck in low-reward states due to poor navigation choices
