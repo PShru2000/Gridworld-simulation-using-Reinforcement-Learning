@@ -94,7 +94,7 @@ Four Rooms Gridworld is a classic RL problem that involves navigating an agent t
 
 ## Result Analysis
 
-Please refer to the **[outputs]([https://github.com/PShru2000/Implementation-of-Reinforcement-Policies-in-Gridworld/tree/main/outputs%20-RL](https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/tree/main/Outputs-RL1)https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/tree/main/Outputs-RL1)** for the resuts
+Please refer to the **[outputs](https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/tree/main/Outputs-RL1)** for the resuts
 
 **Better Policy:**
 
