@@ -1,7 +1,5 @@
 # Simulating a Four Rooms Gridworld Environment using Reinforcement Learning
 
-## Environment Setup
-
 ### Environment Setup for Four Rooms Simulation
 
 This section outlines the setup for the Four Rooms simulation environment used to test reinforcement learning policies. The environment is designed to mimic a gridworld with walls and a probability of action slippage, providing a platform to assess the robustness and effectiveness of different learning algorithms.
@@ -35,4 +33,5 @@ This section outlines the setup for the Four Rooms simulation environment used t
 - The policy is a manual state-action mapping π: S → A, which can be user-defined for testing.
 
 ## Gridworld Environment
-!Screenshot[https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/blob/main/env.png]
+
+![Screenshot](https://github.com/PShru2000/Gridworld-simulation-using-Reinforcement-Learning/blob/main/env.png?raw=true)
